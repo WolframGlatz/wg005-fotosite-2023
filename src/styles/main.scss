@@ -70,13 +70,13 @@ body {
 	object-fit: cover; 
 }
 
-/* In deiner SCSS-Datei (styles.scss) */
+
 .card {
-	width: calc(33.33% - 10px); /* Berechnete Breite für 3 Cards pro Zeile mit 10px Abstand zwischen ihnen */
-	margin-bottom: 10px; /* Abstand zwischen den Zeilen */
+	width: calc(33.33% - 10px); 
+	margin-bottom: 10px; /
 	position: relative;
 	overflow: hidden;
-	transition: transform 0.3s ease-in-out; /* Hover-Effekt für die Vergrößerung */
+	transition: transform 0.3s ease-in-out; /
 }
 
 .card img {
