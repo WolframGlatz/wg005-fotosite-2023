@@ -1,4 +1,4 @@
-import LikeButton from "/src/components/LikeButton.ts";
+import LikeButton from "/Users/wolfram/projects/wg005-fotosite-2023/src/components/LikeButton.ts";
 
 let likeButtonInitialized = false;
 
