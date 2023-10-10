@@ -1,11 +1,14 @@
-// import LikeButton from '@/components/LikeButton.ts';
+import LikeButton from "/src/components/LikeButton.ts";
+
+let likeButtonInitialized = false;
 
 export const PageWelcome = () => {
-	/* if (!likeButtonInitialized) {
-		LikeButton();
-		likeButtonInitialized = true;
-	} */
-    return /*html*/`
+    if (!likeButtonInitialized) {
+        LikeButton();
+        likeButtonInitialized = true;
+    }
+
+    return /*html*/ `
         <div class="page pageWelcome">
             <p>Welcome to this site.</p>
             <img src="public/IMG_7001.jpg" alt="IMG_7001" class="hero-image">

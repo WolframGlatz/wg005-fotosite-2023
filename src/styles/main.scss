@@ -95,15 +95,15 @@ body {
 	align-items: center;
 	justify-content: center;
 	opacity: 0;
-	transition: opacity 0.3s ease-in-out; /* Hover-Effekt für das Overlay */
+	transition: opacity 0.3s ease-in-out; 
 }
 
 .card:hover {
-	transform: scale(1.1); /* Vergrößere die Card beim Hover */
+	transform: scale(1.2); 
 }
 
 .card:hover .overlay {
-	opacity: 1; /* Zeige das Overlay beim Hover */
+	opacity: 1; 
 }
 
 .like-button {
